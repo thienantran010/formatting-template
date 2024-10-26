@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .tsx,.ts --fix"
+  },
   "devDependencies": {
     "eslint-plugin-unused-imports": "3.1.0",
     "eslint-plugin-simple-import-sort": "12.0.0",
